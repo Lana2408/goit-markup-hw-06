@@ -411,7 +411,7 @@ img {
 
 
 .footer {
-    padding: 100px 156px;
+    padding: 100px 0px;
     background-color: var(--dark-color);
     color: var(--light-color);
 }
@@ -499,12 +499,15 @@ img {
 
     width: 264px;
     height: 40px;
-    padding: 16px 8px;
+    padding: 8px 16px;
     margin-right: 24px;
     background: transparent;
     border: 1px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
     color: #ffffff;
 }
 
@@ -513,7 +516,7 @@ img {
     color: #ffffff;
     font-size: 12px;
     line-height: 2;
-    padding: 16px 8px;
+    letter-spacing: 0.04em;
 }
 
 .subscribe-input:focus {
@@ -681,7 +684,6 @@ img {
     top: 50%;
     left: 50%;
     width: 408px;
-    height: 576px;
     padding: 72px 24px 24px;
     background-color: var(--modal-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
